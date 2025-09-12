@@ -290,6 +290,16 @@ body {
     padding: 1rem 0;
     display: none;
   }
+  @media (max-width: 480px) {
+    .nav-links {
+      font-size: 20px;
+      width: 100%;
+      padding: 1rem 0;
+      top: 60px;
+      right: 0;
+      
+    }
+  }
   .nav-links.open {
     display: flex;
     animation: slideDown 0.3s ease forwards;
