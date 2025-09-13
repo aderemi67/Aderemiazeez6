@@ -294,6 +294,11 @@ body {
     body {
       width: 100%;
     }
+    .logo {
+      position: relative;
+      top: 0;
+      left: 5px;
+    }
     .nav-links {
       font-size: 20px;
       width: 100%;
