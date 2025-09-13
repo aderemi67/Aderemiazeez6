@@ -30,7 +30,7 @@ body {
   top: 0;
   z-index: 100; 
   width: 100%;
-  background: url(/public/img/pic2.jpg);
+  background: url(/public/img/pic1.jpg);
   background-size: cover;
   transition: background 0.3s ease, border 0.3s ease;
   height: 30vh;
@@ -294,17 +294,21 @@ body {
     body {
       width: 100%;
     }
-    .logo {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-end;
+      padding: .5rem 1rem;
+      height: 30vh; 
       position: relative;
-      top: 0;
-      left: 5px;
-    }
-    .nav-links {
-      font-size: 20px;
       width: 100%;
-      padding: 1rem 0;
-      top: 60px;
-      right: 0;
+    }
+   
+    .hamburger {
+      position: absolute;
+      top: 15px;
+      right: 1rem;
+      z-index: 1000;
+      cursor: pointer;
     }
     nav ul {
       flex-direction: column;
