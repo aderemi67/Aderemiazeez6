@@ -378,9 +378,12 @@ a {
       width: 100%;
     }
     .navbar {
-      width: 95%;
+      width: 80%;
       justify-content: space-around;
       align-content: center;
+    }
+    .hamburger {
+      top: -30px;
     }
      .logo {
       font-size: 1.2rem;
