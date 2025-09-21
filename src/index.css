@@ -33,6 +33,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
+
 }
 
 /*Logo*/
@@ -375,6 +376,11 @@ a {
   @media (max-width: 480px) {
     body {
       width: 100%;
+    }
+    .navbar {
+      width: 95%;
+      justify-content: space-around;
+      align-content: center;
     }
      .logo {
       font-size: 1.2rem;
