@@ -404,6 +404,7 @@ a {
       margin: 15px 0;
      }
     .hero {
+      margin-top: 11rem;
       flex-direction: column;
       text-align: center;
       padding: 1rem;
