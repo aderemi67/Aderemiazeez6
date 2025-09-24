@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <section className="contact" id="contact">
-            <h2>Contact Me</h2>
+            <h2 className="contact-h2">Contact Me</h2>
             <form className="contact-form">
                 <input type="text" placeholder="Your Name..." required />
                 <input type="email" placeholder="Your Email..." required />

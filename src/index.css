@@ -8,12 +8,12 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
-  background-image: url(/public/img/postmalone-1.jpg);
-  background-size: cover;
+  background: linear-gradient(180deg, #0d0d0d 0%, #1a001f 100%);
   color: #333;
   scroll-behavior: smooth; 
 }
@@ -31,9 +31,8 @@ body {
   z-index: 9999;
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.6);
   margin-bottom: 2rem;
-
 }
 
 /*Logo*/
@@ -50,6 +49,7 @@ body {
   list-style: none;
   color: white;
   transition: transform 0.3s ease;
+  border: 1px solid transparent;
 }
 
 .nav-links li a {
@@ -114,8 +114,8 @@ body {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background: url(/public/img/theme2.jpg); 
-  background-size: cover;
+  background: radial-gradient(circle at top, #2b0057, #0a0a0a); 
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.6);
   color: white;
   margin-bottom: 3rem;
   border-radius: 9px;
@@ -128,7 +128,9 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto .5rem;
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.6);
 }
+
 .hero h2 {
   font-size: 2.5rem;
 }
@@ -140,7 +142,6 @@ body {
 .btn  {
   display: inline-block; 
   padding: 0.7rem .5rem; 
- /* background: white;  */
  color: #007bff; 
   font-weight: bold;
   border-radius: 5px;
@@ -157,31 +158,32 @@ body {
 .about {
   padding: 4rem 2rem;
   text-align: center;
-  background: #fff; 
+  background: radial-gradient(circle at top, #111827, #1F2937); 
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.6);
   margin-bottom: 3rem;
   border-radius: 9px;
-  background: gray;
 }
 .about p {
   margin-bottom: 2rem;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .about h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 .about .lists {
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* Projects Section */
 .projects {
   padding: 4rem 2rem;
-  background: #f0f4f8;
+  background: radial-gradient(circle at top, #38BDF8, #6D28D9 );
   margin-bottom: 2rem;
   border-radius: 9px;
 }
@@ -200,7 +202,7 @@ body {
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px rgba(128,0,255,0.6);
   transition: transform 0.3s;
 }
 .img {
@@ -222,6 +224,9 @@ body {
   text-align: center;
   font-weight: 800;
   font-size: 2.5rem;
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.6);
+  margin-bottom: 1rem;
+  border-radius: 9px;
 }
 
 .contact-form {
@@ -352,7 +357,7 @@ a {
     position: absolute;
     top: 60px;
     right: 0;
-    background: #333;
+    background: linear-gradient(135deg, #9333EA,#3B82F6);
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -369,7 +374,7 @@ a {
   .nav-links li a {
     text-align: center;
     padding: 10px 0;
-    color: #fff;
+    color: #EC4899;
     font-size: 1.2rem;
   }
 }
@@ -404,6 +409,10 @@ a {
     }
     .projects {
       grid-template-columns: 1fr;
+    }
+    .contact-h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
     footer {
       flex-direction: column;

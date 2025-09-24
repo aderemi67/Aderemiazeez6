@@ -7,12 +7,13 @@ function About() {
             <p>My dream is create a New Accounting Software that make Accountants work easier when preparing Financial Statement.</p>
             <p>Beyond coding, i am constantly exploring new technologies and best practices to stay ahead in the ever-evolving web development industry. I am open to collaboration, freelancing and opportunities that challenge my creativity and technical skills.</p>
             <div>
-            <h2>WHAT I DO</h2>
+            <h2>SKILLS</h2>
             <ul className="lists">
-                <li>Web Development (JavaScript, React, Python)</li>
-                <li>Digital Design & Motion Graphics</li>
-                <li>User Experience Design</li>
-                <li>Graphic Design & Branding</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
             </ul>
             </div>
         </section>
