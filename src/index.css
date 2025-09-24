@@ -229,6 +229,11 @@ body {
   border-radius: 9px;
 }
 
+.contact-h2 {
+  margin-bottom: 1.5rem;
+}
+
+
 .contact-form {
   max-width: 500px;
   margin: auto;
