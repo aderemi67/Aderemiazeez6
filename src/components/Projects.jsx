@@ -21,6 +21,12 @@ function Projects() {
                    <a href="https://aderemi67.github.io/aderemi-calculator/" className="btn">View</a>
                     <p className="details">A Calculator which was created using HTML, CSS & JavaScript.</p>
                 </div>
+                 <div className="project-card">
+                    <h3>🎬 Movie Watchlist App</h3>
+                    <img src="/img/FB_IMG_1754079509621.jpg" alt="Movie Watchlist" className="img"/>
+                   <a href="https://movie-watchlist-rho-two.vercel.app/" className="btn">View</a>
+                    <p className="details">A simple React app that lets users search movies using the TMDB API, add them to a personal watchlist, and manage their favorite movies all in one place.</p>
+                </div>
             </div>
         </section>
     );
